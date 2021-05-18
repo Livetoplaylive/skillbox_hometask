@@ -16,20 +16,27 @@ int main() {
     std::cout<<"\nPush 'x' to exit";
     std::cin.get(flag);
     std::cin.get();
+
+    if (key>Alphabet_SIZE)
+    {
+        key-=Alphabet_SIZE;
+    }
+
     switch (flag) {
         case '1':
             std::cout<<"\nEnter the string : ";
             std::getline(std::cin,input);
             std::cout<<"\nEnter the key: ";
             std::cin>>key;
-            std::cout<<"Your string "<<encrypt_caesar(input,key);
+            std::cout<<"Your string: "<<encrypt_caesar(input,key)<<std::endl;
+
             break;
         case '2':
             std::cout<<"Enter the string : ";
             std::getline(std::cin,input);
             std::cout<<"Enter the key: ";
             std::cin>>key;
-            std::cout<<"Your string: "<<decrypt_caesar(input,key);
+            std::cout<<"Your string: "<<decrypt_caesar(input,key)<<std::endl;
             break;
         default:
             EXIT_FAILURE;
@@ -43,10 +50,6 @@ std::string encrypt_caesar(std::string input,short k){
     int correcter{};
 
 
-    if (k>Alphabet_SIZE)
-    {
-        k-=Alphabet_SIZE;
-    }
     for (int i = 0; i < input.length(); ++i) {
         correcter=input[i]+k;
         if (!isalpha(input[i]))
@@ -57,17 +60,23 @@ std::string encrypt_caesar(std::string input,short k){
         {
             if (isupper(input[i]))
             {
-                if (correcter>90)
+                if (correcter>89)
                 {
                     input[i]=correcter-Alphabet_SIZE;
+                }
+                else if(correcter<64){
+                    input[i]=correcter+Alphabet_SIZE;
                 }
                 else{
                     input[i]=(input[i]+k);
                 }
             }else{
-                if (correcter>122)
+                if (correcter>121)
                 {
                     input[i]=correcter-Alphabet_SIZE;
+                }
+                else if(correcter<96){
+                    input[i]=correcter+Alphabet_SIZE;
                 }
                 else{
                     input[i]=(input[i]+k);
@@ -82,43 +91,5 @@ std::string encrypt_caesar(std::string input,short k){
 }
 
 std::string decrypt_caesar(std::string input, short k) {
-    int correcter{};
-
-    if (k>Alphabet_SIZE)
-    {
-        k-=Alphabet_SIZE;
-    }
-    for (int i = 0; i < input.length(); ++i) {
-        correcter=input[i]-k;
-        if (!isalpha(input[i]))
-        {
-            input[i]=input[i];
-
-        }else
-        {
-            if (isupper(input[i]))
-            {
-                if (correcter<65)
-                {
-                    input[i]=correcter+Alphabet_SIZE;
-                }
-                else{
-                    input[i]=(input[i]-k);
-                }
-            }else{
-                if (correcter<97)
-                {
-                    input[i]=correcter+Alphabet_SIZE;
-                }
-                else{
-                    input[i]=(input[i]-k);
-                }
-
-            }
-        }
-
-    }
-    return input;
-
-
+    return (encrypt_caesar(input,-k));
 }
