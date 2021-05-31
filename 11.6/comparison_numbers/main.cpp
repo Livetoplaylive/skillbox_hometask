@@ -5,6 +5,7 @@ long long translator(std::string);
 
 long long translator(std::string, unsigned short);
 
+long long retranslator(std:: string, unsigned short);
 std::string comparison(std::string a, std::string b);
 
 bool corrector(std::string);
@@ -56,7 +57,7 @@ bool corrector(std::string a) {
 
 std::string comparison(std::string a, std::string b) {
 
-    long long f_temp{}, s_temp{};
+    long long f_temp{},s_temp{};
 
     if (a.find_first_of('.') == std::string::npos) {
         f_temp = translator(a);
@@ -81,27 +82,10 @@ std::string comparison(std::string a, std::string b) {
             return "Equal";
         } else {
             if (a.find_first_of('.') != std::string::npos) {
-                for (int i = 1 + a.find_first_of('.'); i < a.length(); ++i) {
-
-                    f_temp += a[i] - '0';
-                    if (i == a.length() - 1) {
-                        continue;
-                    } else {
-                        f_temp *= 10;
-                    }
-                }
-
+                f_temp=retranslator(a,a.find_first_of('.'));
             }
             if (b.find_first_of('.') != std::string::npos) {
-                for (int i = 1 + b.find_first_of('.'); i < b.length(); ++i) {
-
-                    s_temp += b[i] - '0';
-                    if (i == b.length() - 1) {
-                        continue;
-                    } else {
-                        s_temp *= 10;
-                    }
-                }
+                s_temp=retranslator(b,b.find_first_of('.'));
             }
             if (f_temp > s_temp) {
                 return "More";
@@ -145,5 +129,19 @@ long long translator(std::string a, unsigned short pointer) {
         }
     }
 
+    return output;
+}
+
+long long retranslator(std::string a,unsigned short pointer)
+{
+    long long output{};
+
+    for(int i=a.length()-1;i>pointer;i--){
+        output+=a[i]-'0';
+        output*=10;
+    }
+    while(!(output%10)){
+        output/=10;
+    }
     return output;
 }
