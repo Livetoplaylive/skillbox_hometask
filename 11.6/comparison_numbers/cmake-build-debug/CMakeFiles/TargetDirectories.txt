@@ -1,0 +1,3 @@
+/home/paul/Templates/repositories/skillbox_hometask/11.6/comparison_numbers/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/paul/Templates/repositories/skillbox_hometask/11.6/comparison_numbers/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/paul/Templates/repositories/skillbox_hometask/11.6/comparison_numbers/cmake-build-debug/CMakeFiles/comparison_numbers.dir

@@ -76,7 +76,10 @@ std::string comparison(std::string a, std::string b) {
 
     } else if (s_temp > f_temp) {
         return "Less";
-    } else {
+    }
+
+
+    else {
         f_temp = s_temp = 0;
         if ((a.find_first_of('.') == std::string::npos) && (b.find_first_of('.') == std::string::npos)) {
             return "Equal";
@@ -103,33 +106,63 @@ std::string comparison(std::string a, std::string b) {
 
 long long translator(std::string a) {
     long long output{};
-
-    for (int i = 0; i < a.length(); ++i) {
-        output += a[i] - '0';
-        if (i == a.length() - 1) {
-            continue;
-        } else {
-            output *= 10;
+    if(a[0]=='-'){
+        for (int i = 1; i < a.length(); ++i) {
+            output += a[i] - '0';
+            if (i == a.length() - 1) {
+                continue;
+            } else {
+                output *= 10;
+            }
         }
+        return -output;
+    }else {
+
+        for (int i = 0; i < a.length(); ++i) {
+            output += a[i] - '0';
+            if (i == a.length() - 1) {
+                continue;
+            } else {
+                output *= 10;
+            }
+        }
+        return output;
     }
 
-    return output;
 }
 
 long long translator(std::string a, unsigned short pointer) {
     long long output{};
 
     pointer = a.find_first_of('.');
-    for (int i = 0; i < pointer; ++i) {
-        output += a[i] - '0';
-        if (i == pointer - 1) {
-            continue;
-        } else {
-            output *= 10;
-        }
-    }
 
-    return output;
+    if(a[0]=='-')
+    {
+        for (int i = 1; i < pointer; ++i) {
+            output += a[i] - '0';
+            if (i == pointer - 1) {
+                continue;
+            } else {
+                output *= 10;
+            }
+        }
+
+        return -output;
+    }
+    else {
+
+
+        for (int i = 0; i < pointer; ++i) {
+            output += a[i] - '0';
+            if (i == pointer - 1) {
+                continue;
+            } else {
+                output *= 10;
+            }
+        }
+
+        return output;
+    }
 }
 
 long long retranslator(std::string a,unsigned short pointer)

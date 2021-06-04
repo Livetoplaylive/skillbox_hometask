@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/comparison_numbers.dir/main.cpp.o -o comparison_numbers 
