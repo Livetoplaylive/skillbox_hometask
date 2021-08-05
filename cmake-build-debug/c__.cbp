@@ -8,46 +8,46 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/paul/Repositories/c++/cmake-build-debug"/>
+				<Option working_dir="/home/wandsman/repositories/skillbox/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/bin/make -j12 -f &quot;/home/paul/Repositories/c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/bin/make -j12 -f &quot;/home/paul/Repositories/c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/bin/make -j12 -f &quot;/home/paul/Repositories/c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/bin/make -j12 -f &quot;/home/paul/Repositories/c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/wandsman/repositories/skillbox/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/wandsman/repositories/skillbox/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/wandsman/repositories/skillbox/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/wandsman/repositories/skillbox/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/paul/Repositories/c++/cmake-build-debug"/>
+				<Option working_dir="/home/wandsman/repositories/skillbox/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/bin/make -j12 -f &quot;/home/paul/Repositories/c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/bin/make -j12 -f &quot;/home/paul/Repositories/c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/bin/make -j12 -f &quot;/home/paul/Repositories/c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/bin/make -j12 -f &quot;/home/paul/Repositories/c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/wandsman/repositories/skillbox/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/wandsman/repositories/skillbox/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/wandsman/repositories/skillbox/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/wandsman/repositories/skillbox/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/paul/Repositories/c++/cmake-build-debug"/>
+				<Option working_dir="/home/wandsman/repositories/skillbox/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/bin/make -j12 -f &quot;/home/paul/Repositories/c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/bin/make -j12 -f &quot;/home/paul/Repositories/c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/bin/make -j12 -f &quot;/home/paul/Repositories/c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/bin/make -j12 -f &quot;/home/paul/Repositories/c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/wandsman/repositories/skillbox/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/wandsman/repositories/skillbox/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/wandsman/repositories/skillbox/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/wandsman/repositories/skillbox/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="c__">
-				<Option output="/home/paul/Repositories/c++/cmake-build-debug/c__" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/paul/Repositories/c++/cmake-build-debug"/>
+				<Option output="/home/wandsman/repositories/skillbox/cmake-build-debug/c__" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/wandsman/repositories/skillbox/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/paul/Repositories/c++/."/>
-					<Add directory="/home/paul/Repositories/c++/11.6"/>
-					<Add directory="/home/paul/Repositories/c++/12"/>
-					<Add directory="/home/paul/Repositories/c++/empty_app"/>
+					<Add directory="/home/wandsman/repositories/skillbox/."/>
+					<Add directory="/home/wandsman/repositories/skillbox/11.6"/>
+					<Add directory="/home/wandsman/repositories/skillbox/12"/>
+					<Add directory="/home/wandsman/repositories/skillbox/empty_app"/>
 					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0"/>
 					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/x86_64-pc-linux-gnu"/>
 					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/backward"/>
@@ -57,23 +57,23 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/bin/make -j12 -f &quot;/home/paul/Repositories/c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 c__"/>
-					<CompileFile command="/bin/make -j12 -f &quot;/home/paul/Repositories/c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/bin/make -j12 -f &quot;/home/paul/Repositories/c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/bin/make -j12 -f &quot;/home/paul/Repositories/c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/wandsman/repositories/skillbox/cmake-build-debug/Makefile&quot;  VERBOSE=1 c__"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/wandsman/repositories/skillbox/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/wandsman/repositories/skillbox/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/wandsman/repositories/skillbox/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="c__/fast">
-				<Option output="/home/paul/Repositories/c++/cmake-build-debug/c__" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/paul/Repositories/c++/cmake-build-debug"/>
+				<Option output="/home/wandsman/repositories/skillbox/cmake-build-debug/c__" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/wandsman/repositories/skillbox/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/paul/Repositories/c++/."/>
-					<Add directory="/home/paul/Repositories/c++/11.6"/>
-					<Add directory="/home/paul/Repositories/c++/12"/>
-					<Add directory="/home/paul/Repositories/c++/empty_app"/>
+					<Add directory="/home/wandsman/repositories/skillbox/."/>
+					<Add directory="/home/wandsman/repositories/skillbox/11.6"/>
+					<Add directory="/home/wandsman/repositories/skillbox/12"/>
+					<Add directory="/home/wandsman/repositories/skillbox/empty_app"/>
 					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0"/>
 					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/x86_64-pc-linux-gnu"/>
 					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/backward"/>
@@ -83,41 +83,41 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/bin/make -j12 -f &quot;/home/paul/Repositories/c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 c__/fast"/>
-					<CompileFile command="/bin/make -j12 -f &quot;/home/paul/Repositories/c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/bin/make -j12 -f &quot;/home/paul/Repositories/c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/bin/make -j12 -f &quot;/home/paul/Repositories/c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/wandsman/repositories/skillbox/cmake-build-debug/Makefile&quot;  VERBOSE=1 c__/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/wandsman/repositories/skillbox/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/wandsman/repositories/skillbox/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/wandsman/repositories/skillbox/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/paul/Repositories/c++/11.6/Caesar_cipher/main.cpp">
+		<Unit filename="/home/wandsman/repositories/skillbox/11.6/Caesar_cipher/main.cpp">
 			<Option target="c__"/>
 		</Unit>
-		<Unit filename="/home/paul/Repositories/c++/11.6/comparison_numbers/main.cpp">
+		<Unit filename="/home/wandsman/repositories/skillbox/11.6/comparison_numbers/main.cpp">
 			<Option target="c__"/>
 		</Unit>
-		<Unit filename="/home/paul/Repositories/c++/11.6/email_correct/main.cpp">
+		<Unit filename="/home/wandsman/repositories/skillbox/11.6/email_correct/main.cpp">
 			<Option target="c__"/>
 		</Unit>
-		<Unit filename="/home/paul/Repositories/c++/11.6/ip_validation/main.cpp">
+		<Unit filename="/home/wandsman/repositories/skillbox/11.6/ip_validation/main.cpp">
 			<Option target="c__"/>
 		</Unit>
-		<Unit filename="/home/paul/Repositories/c++/11.6/tic_tac_toe/main.cpp">
+		<Unit filename="/home/wandsman/repositories/skillbox/11.6/tic_tac_toe/main.cpp">
 			<Option target="c__"/>
 		</Unit>
-		<Unit filename="/home/paul/Repositories/c++/12/Average number of storeys/main.cpp">
+		<Unit filename="/home/wandsman/repositories/skillbox/12/Average number of storeys/main.cpp">
 			<Option target="c__"/>
 		</Unit>
-		<Unit filename="/home/paul/Repositories/c++/12/Self-isolation level/main.cpp">
+		<Unit filename="/home/wandsman/repositories/skillbox/12/Self-isolation level/main.cpp">
 			<Option target="c__"/>
 		</Unit>
-		<Unit filename="/home/paul/Repositories/c++/12/task_1/main.cpp">
+		<Unit filename="/home/wandsman/repositories/skillbox/12/task_1/main.cpp">
 			<Option target="c__"/>
 		</Unit>
-		<Unit filename="/home/paul/Repositories/c++/empty_app/main.cpp">
+		<Unit filename="/home/wandsman/repositories/skillbox/empty_app/main.cpp">
 			<Option target="c__"/>
 		</Unit>
-		<Unit filename="/home/paul/Repositories/c++/CMakeLists.txt">
+		<Unit filename="/home/wandsman/repositories/skillbox/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
