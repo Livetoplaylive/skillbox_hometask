@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/g++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/wandsman/repositories/skillbox/. -I/home/wandsman/repositories/skillbox/11.6 -I/home/wandsman/repositories/skillbox/12 -I/home/wandsman/repositories/skillbox/empty_app
+CXX_INCLUDES = -I/home/wandsman/repositories/skillbox_hometask/. -I/home/wandsman/repositories/skillbox_hometask/11.6 -I/home/wandsman/repositories/skillbox_hometask/12 -I/home/wandsman/repositories/skillbox_hometask/empty_app
 
 CXX_FLAGS = -g -std=gnu++14
 

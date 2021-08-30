@@ -44,19 +44,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/wandsman/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/212.4746.93/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/wandsman/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/212.5080.54/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/wandsman/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/212.4746.93/bin/cmake/linux/bin/cmake -E rm -f
+RM = /home/wandsman/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/212.5080.54/bin/cmake/linux/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/wandsman/repositories/skillbox
+CMAKE_SOURCE_DIR = /home/wandsman/repositories/skillbox_hometask
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/wandsman/repositories/skillbox/cmake-build-debug
+CMAKE_BINARY_DIR = /home/wandsman/repositories/skillbox_hometask/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/c__.dir/depend.make
@@ -68,120 +68,120 @@ include CMakeFiles/c__.dir/flags.make
 
 CMakeFiles/c__.dir/11.6/Caesar_cipher/main.cpp.o: CMakeFiles/c__.dir/flags.make
 CMakeFiles/c__.dir/11.6/Caesar_cipher/main.cpp.o: ../11.6/Caesar_cipher/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wandsman/repositories/skillbox/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/c__.dir/11.6/Caesar_cipher/main.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c__.dir/11.6/Caesar_cipher/main.cpp.o -c /home/wandsman/repositories/skillbox/11.6/Caesar_cipher/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wandsman/repositories/skillbox_hometask/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/c__.dir/11.6/Caesar_cipher/main.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c__.dir/11.6/Caesar_cipher/main.cpp.o -c /home/wandsman/repositories/skillbox_hometask/11.6/Caesar_cipher/main.cpp
 
 CMakeFiles/c__.dir/11.6/Caesar_cipher/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c__.dir/11.6/Caesar_cipher/main.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wandsman/repositories/skillbox/11.6/Caesar_cipher/main.cpp > CMakeFiles/c__.dir/11.6/Caesar_cipher/main.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wandsman/repositories/skillbox_hometask/11.6/Caesar_cipher/main.cpp > CMakeFiles/c__.dir/11.6/Caesar_cipher/main.cpp.i
 
 CMakeFiles/c__.dir/11.6/Caesar_cipher/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c__.dir/11.6/Caesar_cipher/main.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wandsman/repositories/skillbox/11.6/Caesar_cipher/main.cpp -o CMakeFiles/c__.dir/11.6/Caesar_cipher/main.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wandsman/repositories/skillbox_hometask/11.6/Caesar_cipher/main.cpp -o CMakeFiles/c__.dir/11.6/Caesar_cipher/main.cpp.s
 
 CMakeFiles/c__.dir/11.6/comparison_numbers/main.cpp.o: CMakeFiles/c__.dir/flags.make
 CMakeFiles/c__.dir/11.6/comparison_numbers/main.cpp.o: ../11.6/comparison_numbers/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wandsman/repositories/skillbox/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/c__.dir/11.6/comparison_numbers/main.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c__.dir/11.6/comparison_numbers/main.cpp.o -c /home/wandsman/repositories/skillbox/11.6/comparison_numbers/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wandsman/repositories/skillbox_hometask/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/c__.dir/11.6/comparison_numbers/main.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c__.dir/11.6/comparison_numbers/main.cpp.o -c /home/wandsman/repositories/skillbox_hometask/11.6/comparison_numbers/main.cpp
 
 CMakeFiles/c__.dir/11.6/comparison_numbers/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c__.dir/11.6/comparison_numbers/main.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wandsman/repositories/skillbox/11.6/comparison_numbers/main.cpp > CMakeFiles/c__.dir/11.6/comparison_numbers/main.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wandsman/repositories/skillbox_hometask/11.6/comparison_numbers/main.cpp > CMakeFiles/c__.dir/11.6/comparison_numbers/main.cpp.i
 
 CMakeFiles/c__.dir/11.6/comparison_numbers/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c__.dir/11.6/comparison_numbers/main.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wandsman/repositories/skillbox/11.6/comparison_numbers/main.cpp -o CMakeFiles/c__.dir/11.6/comparison_numbers/main.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wandsman/repositories/skillbox_hometask/11.6/comparison_numbers/main.cpp -o CMakeFiles/c__.dir/11.6/comparison_numbers/main.cpp.s
 
 CMakeFiles/c__.dir/11.6/email_correct/main.cpp.o: CMakeFiles/c__.dir/flags.make
 CMakeFiles/c__.dir/11.6/email_correct/main.cpp.o: ../11.6/email_correct/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wandsman/repositories/skillbox/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/c__.dir/11.6/email_correct/main.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c__.dir/11.6/email_correct/main.cpp.o -c /home/wandsman/repositories/skillbox/11.6/email_correct/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wandsman/repositories/skillbox_hometask/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/c__.dir/11.6/email_correct/main.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c__.dir/11.6/email_correct/main.cpp.o -c /home/wandsman/repositories/skillbox_hometask/11.6/email_correct/main.cpp
 
 CMakeFiles/c__.dir/11.6/email_correct/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c__.dir/11.6/email_correct/main.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wandsman/repositories/skillbox/11.6/email_correct/main.cpp > CMakeFiles/c__.dir/11.6/email_correct/main.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wandsman/repositories/skillbox_hometask/11.6/email_correct/main.cpp > CMakeFiles/c__.dir/11.6/email_correct/main.cpp.i
 
 CMakeFiles/c__.dir/11.6/email_correct/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c__.dir/11.6/email_correct/main.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wandsman/repositories/skillbox/11.6/email_correct/main.cpp -o CMakeFiles/c__.dir/11.6/email_correct/main.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wandsman/repositories/skillbox_hometask/11.6/email_correct/main.cpp -o CMakeFiles/c__.dir/11.6/email_correct/main.cpp.s
 
 CMakeFiles/c__.dir/11.6/ip_validation/main.cpp.o: CMakeFiles/c__.dir/flags.make
 CMakeFiles/c__.dir/11.6/ip_validation/main.cpp.o: ../11.6/ip_validation/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wandsman/repositories/skillbox/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/c__.dir/11.6/ip_validation/main.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c__.dir/11.6/ip_validation/main.cpp.o -c /home/wandsman/repositories/skillbox/11.6/ip_validation/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wandsman/repositories/skillbox_hometask/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/c__.dir/11.6/ip_validation/main.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c__.dir/11.6/ip_validation/main.cpp.o -c /home/wandsman/repositories/skillbox_hometask/11.6/ip_validation/main.cpp
 
 CMakeFiles/c__.dir/11.6/ip_validation/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c__.dir/11.6/ip_validation/main.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wandsman/repositories/skillbox/11.6/ip_validation/main.cpp > CMakeFiles/c__.dir/11.6/ip_validation/main.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wandsman/repositories/skillbox_hometask/11.6/ip_validation/main.cpp > CMakeFiles/c__.dir/11.6/ip_validation/main.cpp.i
 
 CMakeFiles/c__.dir/11.6/ip_validation/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c__.dir/11.6/ip_validation/main.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wandsman/repositories/skillbox/11.6/ip_validation/main.cpp -o CMakeFiles/c__.dir/11.6/ip_validation/main.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wandsman/repositories/skillbox_hometask/11.6/ip_validation/main.cpp -o CMakeFiles/c__.dir/11.6/ip_validation/main.cpp.s
 
 CMakeFiles/c__.dir/11.6/tic_tac_toe/main.cpp.o: CMakeFiles/c__.dir/flags.make
 CMakeFiles/c__.dir/11.6/tic_tac_toe/main.cpp.o: ../11.6/tic_tac_toe/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wandsman/repositories/skillbox/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/c__.dir/11.6/tic_tac_toe/main.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c__.dir/11.6/tic_tac_toe/main.cpp.o -c /home/wandsman/repositories/skillbox/11.6/tic_tac_toe/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wandsman/repositories/skillbox_hometask/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/c__.dir/11.6/tic_tac_toe/main.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c__.dir/11.6/tic_tac_toe/main.cpp.o -c /home/wandsman/repositories/skillbox_hometask/11.6/tic_tac_toe/main.cpp
 
 CMakeFiles/c__.dir/11.6/tic_tac_toe/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c__.dir/11.6/tic_tac_toe/main.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wandsman/repositories/skillbox/11.6/tic_tac_toe/main.cpp > CMakeFiles/c__.dir/11.6/tic_tac_toe/main.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wandsman/repositories/skillbox_hometask/11.6/tic_tac_toe/main.cpp > CMakeFiles/c__.dir/11.6/tic_tac_toe/main.cpp.i
 
 CMakeFiles/c__.dir/11.6/tic_tac_toe/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c__.dir/11.6/tic_tac_toe/main.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wandsman/repositories/skillbox/11.6/tic_tac_toe/main.cpp -o CMakeFiles/c__.dir/11.6/tic_tac_toe/main.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wandsman/repositories/skillbox_hometask/11.6/tic_tac_toe/main.cpp -o CMakeFiles/c__.dir/11.6/tic_tac_toe/main.cpp.s
 
 CMakeFiles/c__.dir/12/Average_number_of_storeys/main.cpp.o: CMakeFiles/c__.dir/flags.make
 CMakeFiles/c__.dir/12/Average_number_of_storeys/main.cpp.o: ../12/Average\ number\ of\ storeys/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wandsman/repositories/skillbox/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/c__.dir/12/Average_number_of_storeys/main.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c__.dir/12/Average_number_of_storeys/main.cpp.o -c "/home/wandsman/repositories/skillbox/12/Average number of storeys/main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wandsman/repositories/skillbox_hometask/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/c__.dir/12/Average_number_of_storeys/main.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c__.dir/12/Average_number_of_storeys/main.cpp.o -c "/home/wandsman/repositories/skillbox_hometask/12/Average number of storeys/main.cpp"
 
 CMakeFiles/c__.dir/12/Average_number_of_storeys/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c__.dir/12/Average_number_of_storeys/main.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/wandsman/repositories/skillbox/12/Average number of storeys/main.cpp" > CMakeFiles/c__.dir/12/Average_number_of_storeys/main.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/wandsman/repositories/skillbox_hometask/12/Average number of storeys/main.cpp" > CMakeFiles/c__.dir/12/Average_number_of_storeys/main.cpp.i
 
 CMakeFiles/c__.dir/12/Average_number_of_storeys/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c__.dir/12/Average_number_of_storeys/main.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/wandsman/repositories/skillbox/12/Average number of storeys/main.cpp" -o CMakeFiles/c__.dir/12/Average_number_of_storeys/main.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/wandsman/repositories/skillbox_hometask/12/Average number of storeys/main.cpp" -o CMakeFiles/c__.dir/12/Average_number_of_storeys/main.cpp.s
 
 CMakeFiles/c__.dir/12/Self-isolation_level/main.cpp.o: CMakeFiles/c__.dir/flags.make
 CMakeFiles/c__.dir/12/Self-isolation_level/main.cpp.o: ../12/Self-isolation\ level/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wandsman/repositories/skillbox/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/c__.dir/12/Self-isolation_level/main.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c__.dir/12/Self-isolation_level/main.cpp.o -c "/home/wandsman/repositories/skillbox/12/Self-isolation level/main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wandsman/repositories/skillbox_hometask/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/c__.dir/12/Self-isolation_level/main.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c__.dir/12/Self-isolation_level/main.cpp.o -c "/home/wandsman/repositories/skillbox_hometask/12/Self-isolation level/main.cpp"
 
 CMakeFiles/c__.dir/12/Self-isolation_level/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c__.dir/12/Self-isolation_level/main.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/wandsman/repositories/skillbox/12/Self-isolation level/main.cpp" > CMakeFiles/c__.dir/12/Self-isolation_level/main.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/wandsman/repositories/skillbox_hometask/12/Self-isolation level/main.cpp" > CMakeFiles/c__.dir/12/Self-isolation_level/main.cpp.i
 
 CMakeFiles/c__.dir/12/Self-isolation_level/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c__.dir/12/Self-isolation_level/main.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/wandsman/repositories/skillbox/12/Self-isolation level/main.cpp" -o CMakeFiles/c__.dir/12/Self-isolation_level/main.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/wandsman/repositories/skillbox_hometask/12/Self-isolation level/main.cpp" -o CMakeFiles/c__.dir/12/Self-isolation_level/main.cpp.s
 
 CMakeFiles/c__.dir/12/task_1/main.cpp.o: CMakeFiles/c__.dir/flags.make
 CMakeFiles/c__.dir/12/task_1/main.cpp.o: ../12/task_1/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wandsman/repositories/skillbox/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/c__.dir/12/task_1/main.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c__.dir/12/task_1/main.cpp.o -c /home/wandsman/repositories/skillbox/12/task_1/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wandsman/repositories/skillbox_hometask/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/c__.dir/12/task_1/main.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c__.dir/12/task_1/main.cpp.o -c /home/wandsman/repositories/skillbox_hometask/12/task_1/main.cpp
 
 CMakeFiles/c__.dir/12/task_1/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c__.dir/12/task_1/main.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wandsman/repositories/skillbox/12/task_1/main.cpp > CMakeFiles/c__.dir/12/task_1/main.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wandsman/repositories/skillbox_hometask/12/task_1/main.cpp > CMakeFiles/c__.dir/12/task_1/main.cpp.i
 
 CMakeFiles/c__.dir/12/task_1/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c__.dir/12/task_1/main.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wandsman/repositories/skillbox/12/task_1/main.cpp -o CMakeFiles/c__.dir/12/task_1/main.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wandsman/repositories/skillbox_hometask/12/task_1/main.cpp -o CMakeFiles/c__.dir/12/task_1/main.cpp.s
 
 CMakeFiles/c__.dir/empty_app/main.cpp.o: CMakeFiles/c__.dir/flags.make
 CMakeFiles/c__.dir/empty_app/main.cpp.o: ../empty_app/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wandsman/repositories/skillbox/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/c__.dir/empty_app/main.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c__.dir/empty_app/main.cpp.o -c /home/wandsman/repositories/skillbox/empty_app/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wandsman/repositories/skillbox_hometask/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/c__.dir/empty_app/main.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c__.dir/empty_app/main.cpp.o -c /home/wandsman/repositories/skillbox_hometask/empty_app/main.cpp
 
 CMakeFiles/c__.dir/empty_app/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c__.dir/empty_app/main.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wandsman/repositories/skillbox/empty_app/main.cpp > CMakeFiles/c__.dir/empty_app/main.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wandsman/repositories/skillbox_hometask/empty_app/main.cpp > CMakeFiles/c__.dir/empty_app/main.cpp.i
 
 CMakeFiles/c__.dir/empty_app/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c__.dir/empty_app/main.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wandsman/repositories/skillbox/empty_app/main.cpp -o CMakeFiles/c__.dir/empty_app/main.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wandsman/repositories/skillbox_hometask/empty_app/main.cpp -o CMakeFiles/c__.dir/empty_app/main.cpp.s
 
 # Object files for target c__
 c___OBJECTS = \
@@ -209,7 +209,7 @@ c__: CMakeFiles/c__.dir/12/task_1/main.cpp.o
 c__: CMakeFiles/c__.dir/empty_app/main.cpp.o
 c__: CMakeFiles/c__.dir/build.make
 c__: CMakeFiles/c__.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/wandsman/repositories/skillbox/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable c__"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/wandsman/repositories/skillbox_hometask/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable c__"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/c__.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -221,6 +221,6 @@ CMakeFiles/c__.dir/clean:
 .PHONY : CMakeFiles/c__.dir/clean
 
 CMakeFiles/c__.dir/depend:
-	cd /home/wandsman/repositories/skillbox/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wandsman/repositories/skillbox /home/wandsman/repositories/skillbox /home/wandsman/repositories/skillbox/cmake-build-debug /home/wandsman/repositories/skillbox/cmake-build-debug /home/wandsman/repositories/skillbox/cmake-build-debug/CMakeFiles/c__.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/wandsman/repositories/skillbox_hometask/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wandsman/repositories/skillbox_hometask /home/wandsman/repositories/skillbox_hometask /home/wandsman/repositories/skillbox_hometask/cmake-build-debug /home/wandsman/repositories/skillbox_hometask/cmake-build-debug /home/wandsman/repositories/skillbox_hometask/cmake-build-debug/CMakeFiles/c__.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/c__.dir/depend
 

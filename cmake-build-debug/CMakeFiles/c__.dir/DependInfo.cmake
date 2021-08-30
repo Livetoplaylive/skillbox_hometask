@@ -8,15 +8,15 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/wandsman/repositories/skillbox/11.6/Caesar_cipher/main.cpp" "/home/wandsman/repositories/skillbox/cmake-build-debug/CMakeFiles/c__.dir/11.6/Caesar_cipher/main.cpp.o"
-  "/home/wandsman/repositories/skillbox/11.6/comparison_numbers/main.cpp" "/home/wandsman/repositories/skillbox/cmake-build-debug/CMakeFiles/c__.dir/11.6/comparison_numbers/main.cpp.o"
-  "/home/wandsman/repositories/skillbox/11.6/email_correct/main.cpp" "/home/wandsman/repositories/skillbox/cmake-build-debug/CMakeFiles/c__.dir/11.6/email_correct/main.cpp.o"
-  "/home/wandsman/repositories/skillbox/11.6/ip_validation/main.cpp" "/home/wandsman/repositories/skillbox/cmake-build-debug/CMakeFiles/c__.dir/11.6/ip_validation/main.cpp.o"
-  "/home/wandsman/repositories/skillbox/11.6/tic_tac_toe/main.cpp" "/home/wandsman/repositories/skillbox/cmake-build-debug/CMakeFiles/c__.dir/11.6/tic_tac_toe/main.cpp.o"
-  "/home/wandsman/repositories/skillbox/12/Average number of storeys/main.cpp" "/home/wandsman/repositories/skillbox/cmake-build-debug/CMakeFiles/c__.dir/12/Average_number_of_storeys/main.cpp.o"
-  "/home/wandsman/repositories/skillbox/12/Self-isolation level/main.cpp" "/home/wandsman/repositories/skillbox/cmake-build-debug/CMakeFiles/c__.dir/12/Self-isolation_level/main.cpp.o"
-  "/home/wandsman/repositories/skillbox/12/task_1/main.cpp" "/home/wandsman/repositories/skillbox/cmake-build-debug/CMakeFiles/c__.dir/12/task_1/main.cpp.o"
-  "/home/wandsman/repositories/skillbox/empty_app/main.cpp" "/home/wandsman/repositories/skillbox/cmake-build-debug/CMakeFiles/c__.dir/empty_app/main.cpp.o"
+  "/home/wandsman/repositories/skillbox_hometask/11.6/Caesar_cipher/main.cpp" "/home/wandsman/repositories/skillbox_hometask/cmake-build-debug/CMakeFiles/c__.dir/11.6/Caesar_cipher/main.cpp.o"
+  "/home/wandsman/repositories/skillbox_hometask/11.6/comparison_numbers/main.cpp" "/home/wandsman/repositories/skillbox_hometask/cmake-build-debug/CMakeFiles/c__.dir/11.6/comparison_numbers/main.cpp.o"
+  "/home/wandsman/repositories/skillbox_hometask/11.6/email_correct/main.cpp" "/home/wandsman/repositories/skillbox_hometask/cmake-build-debug/CMakeFiles/c__.dir/11.6/email_correct/main.cpp.o"
+  "/home/wandsman/repositories/skillbox_hometask/11.6/ip_validation/main.cpp" "/home/wandsman/repositories/skillbox_hometask/cmake-build-debug/CMakeFiles/c__.dir/11.6/ip_validation/main.cpp.o"
+  "/home/wandsman/repositories/skillbox_hometask/11.6/tic_tac_toe/main.cpp" "/home/wandsman/repositories/skillbox_hometask/cmake-build-debug/CMakeFiles/c__.dir/11.6/tic_tac_toe/main.cpp.o"
+  "/home/wandsman/repositories/skillbox_hometask/12/Average number of storeys/main.cpp" "/home/wandsman/repositories/skillbox_hometask/cmake-build-debug/CMakeFiles/c__.dir/12/Average_number_of_storeys/main.cpp.o"
+  "/home/wandsman/repositories/skillbox_hometask/12/Self-isolation level/main.cpp" "/home/wandsman/repositories/skillbox_hometask/cmake-build-debug/CMakeFiles/c__.dir/12/Self-isolation_level/main.cpp.o"
+  "/home/wandsman/repositories/skillbox_hometask/12/task_1/main.cpp" "/home/wandsman/repositories/skillbox_hometask/cmake-build-debug/CMakeFiles/c__.dir/12/task_1/main.cpp.o"
+  "/home/wandsman/repositories/skillbox_hometask/empty_app/main.cpp" "/home/wandsman/repositories/skillbox_hometask/cmake-build-debug/CMakeFiles/c__.dir/empty_app/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
