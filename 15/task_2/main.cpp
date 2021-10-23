@@ -40,7 +40,7 @@ void translation(char **argv, std::vector<int> &current) {
     argv++;
     temp=*argv;
     for (int i = 0; i < temp.size(); ++i) {
-        if (isdigit(temp[i])||temp[i]==('-')||temp[i]==(',')||temp[i]==(' ')){
+        if (isdigit(temp[i])||temp[i]==('-')||temp[i]==(',')){
 
             switch (temp[i]) {
                 case ('-'):
