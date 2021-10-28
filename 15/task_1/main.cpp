@@ -1,57 +1,77 @@
 #include <iostream>
 #include <vector>
-#include <list>
-#include <iterator>
 
 struct index {
     int begin{};
     int end{};
 };
- void fuu(std::vector<int>&input_vec,index& a) {
-    int max_sum{};
-    int temp{};
-    std::list<int>some_list;
-    std::list<int>::iterator some_iterator;
 
-
-    for (int i = 0; i < input_vec.size(); ++i) {
-        if(input_vec[i]>0){
-            some_list.push_back(i);
-        }
-    }
-    while(!some_list.empty()) {
-        some_iterator = some_list.begin();
-        some_iterator++;
-
-        while (some_iterator != some_list.end()) {
-            for (int i = some_list.front(); i <= *some_iterator; ++i) {
-                temp += input_vec[i];
-            }
-
-            if (temp > max_sum) {
-                max_sum = temp;
-                a.begin = some_list.front();
-                a.end = *some_iterator;
-            }
-            temp = 0;
-            some_iterator++;
-
-        }
-        some_list.pop_front();
-    }
-
-}
+void translation(char**argv,std::vector<int>&);
 
 int main(int argc, char* argv[]) {
-    std::vector<int>a;
-    index some_index;
+    index to_need;
+    std::vector<int> input;
+    int sum{};
+    int max{};
+    bool flag{false};
 
-    for (int i = 1; i < argc; ++i) {
-        a.push_back(atoi(argv[i]));
+    translation(argv,input);
+
+    for (int i = 0; i < input.size(); ++i) {
+        sum+=input[i];
+        if(flag){
+            to_need.begin=i;
+            flag= false;
+        }
+
+        if (sum<=0){
+          sum=0;
+          flag= true;
+        }
+        if (sum>max){
+            max=sum;
+            to_need.end=i;
+        }
     }
-    fuu(a, some_index);
-    std::cout << some_index.begin << " " << some_index.end;
+
+    std::cout<<to_need.begin<<" "<<to_need.end;
+
 
     return 0;
 }
 
+void translation(char *argv[],std::vector<int> &current) {
+    std::string temp;
+    int some_number{};
+    bool is_plus{true};
+    argv++;
+    temp=*argv;
+    for (int i = 0; i < temp.size(); ++i) {
+        if (isdigit(temp[i])||temp[i]==('-')||temp[i]==(',')){
+
+            switch (temp[i]) {
+                case ('-'):
+                    is_plus= false;
+                    break;
+                case (','):
+                    if (!is_plus){
+                        some_number*=-1;
+                    }
+                    some_number/=10;
+                    current.push_back(some_number);
+                    some_number=0;
+                    is_plus=true;
+                    break;
+
+                default:
+                    some_number+=temp[i]-48;
+                    some_number*=10;
+                    break;
+            }
+        }
+        else{
+            std::cout<<"uncorrected argument!";
+            return;
+        }
+    }
+}
