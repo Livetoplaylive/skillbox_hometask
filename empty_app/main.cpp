@@ -1,8 +1,21 @@
 #include <iostream>
+#include <vector>
 
-int main(){
+int main () {
+    std::vector<int> v = {-100, -50, -1, 1, 2, 3, 4};
 
-	std::cout<<"hello Paul";
+    int j = 0;
+    while (j < v.size() && v[j] < 0) {
+        ++j;
+    }
 
-	return 0;
+    int i = j--;
+    while (j >= 0 || i < v.size()) {
+        int res = (j >= 0 && (i == v.size() || v[i] > -v[j]) ? v[j--] : v[i++]);
+        std::cout << res << ' ';
+    }
+
+    std::cout << '\n';
+
+    return 0;
 }
