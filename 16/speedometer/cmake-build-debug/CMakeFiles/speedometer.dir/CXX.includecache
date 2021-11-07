@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/wandsman/Repositories/c++/skillbox_hometask/16/speedometer/main.cpp
+iostream
+-
+sstream
+-
+iomanip
+-
+
