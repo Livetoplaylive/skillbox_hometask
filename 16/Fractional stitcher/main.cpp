@@ -1,12 +1,15 @@
 #include <iostream>
-#include <cmath>
+#include <string>
 
 int main(int argc, char*argv[]) {
-    std::string buffer;
+    std::string buffer{};
     double result{};
-    buffer=argv[2];
-    result= atof(argv[1]);
-    result+= atof(argv[2])/pow(10,buffer.size());
+
+    buffer=argv[1];
+    buffer+='.';
+    buffer+=argv[2];
+
+    result=stof(buffer);
     std::cout<<result;
     return 0;
 }
