@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/piano.dir/main.cpp.o -o piano 
