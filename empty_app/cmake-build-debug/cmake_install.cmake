@@ -1,4 +1,4 @@
-# Install script for directory: /home/wandsman/Repositories/c++/skillbox_hometask/empty_app
+# Install script for directory: /home/wandsman/Repository/skillbox_hometask/empty_app
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/wandsman/Repositories/c++/skillbox_hometask/empty_app/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/wandsman/Repository/skillbox_hometask/empty_app/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

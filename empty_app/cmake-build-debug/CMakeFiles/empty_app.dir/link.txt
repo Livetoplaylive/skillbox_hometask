@@ -1,1 +1,1 @@
-/usr/bin/c++ -g CMakeFiles/empty_app.dir/main.cpp.o -o empty_app 
+/usr/bin/g++ -g CMakeFiles/empty_app.dir/main.cpp.o -o empty_app 
