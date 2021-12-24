@@ -2,11 +2,10 @@
 
 void swap(int* a,int* b){
     int x=0;
-    int *temp =&x;
-
-    *temp=*a;
+    //int *temp =&x;
+    x=*a;
     *a=*b;
-    *b=*temp;
+    *b=x;
 }
 
 int main() {
