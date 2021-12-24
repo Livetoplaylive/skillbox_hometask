@@ -1,13 +1,12 @@
 #include <iostream>
 
 void swap(int* a,int* b){
-    int *temp =new int;
+    int x=0;
+    int *temp =&x;
 
     *temp=*a;
     *a=*b;
     *b=*temp;
-
-    delete temp;
 }
 
 int main() {
