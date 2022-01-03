@@ -1,4 +1,4 @@
-/home/wandsman/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.6461.46/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/home/wandsman/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.6461.46/bin/ninja/linux/ninja -DCMAKE_C_COMPILER=/usr/bin/gcc -DCMAKE_CXX_COMPILER=/usr/bin/g++ -G Ninja /home/wandsman/Repository/skillbox_hometask/18/task_1
+/home/wandsman/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.6461.75/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/home/wandsman/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.6461.75/bin/ninja/linux/ninja -DCMAKE_C_COMPILER=/usr/bin/gcc -DCMAKE_CXX_COMPILER=/usr/bin/g++ -G Ninja /home/wandsman/Repository/skillbox_hometask/18/task_1
 -- The C compiler identification is GNU 11.1.0
 -- The CXX compiler identification is GNU 11.1.0
 -- Detecting C compiler ABI info
