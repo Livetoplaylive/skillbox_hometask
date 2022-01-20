@@ -1,0 +1,6 @@
+GDB offers extensive facilities for tracing and altering the execution of computer programs.
+The user can monitor and modify the values of programs' internal variables, and even call functions independently of the program's normal behavior.
+GDB target processors (as of 2003) include: Alpha, ARM, AVR, H8/300, Altera Nios/Nios II, System/370, System 390, X86 and its 64-bit extension X86-64, IA-64 "Itanium", Motorola 68000, MIPS, PA-RISC, PowerPC, SuperH, SPARC, and VAX.
+Lesser-known target processors supported in the standard release have included A29K, ARC, ETRAX CRIS, D10V, D30V, FR-30, FR-V, Intel i960, 68HC11, Motorola 88000, MCORE, MN10200, MN10300, NS32K, Stormy16, and Z8000.
+(Newer releases will likely not support some of these.) GDB has compiled-in simulators for even lesser-known target processors such like M32R or V850.[7]
+GDB is still actively being developed. As of version 7.0 new features include support for Python scripting[8] and as of version 7.8 GNU Guile scripting as well.[9] Since version 7.0, support for "reversible debugging" — allowing a debugging session to step backward, much like rewinding a crashed program to see what happened — is available.[10]

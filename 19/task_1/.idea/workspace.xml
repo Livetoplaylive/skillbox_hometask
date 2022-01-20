@@ -11,10 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1cc6ef8a-fb28-46db-972c-d4fbd1660842" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/task_1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/word.txt" afterDir="false" />
-    </list>
+    <list default="true" id="1cc6ef8a-fb28-46db-972c-d4fbd1660842" name="Changes" comment="task_1 added" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,8 +70,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1642606028907</updated>
-      <workItem from="1642606030309" duration="199000" />
+      <workItem from="1642606030309" duration="284000" />
     </task>
+    <task id="LOCAL-00001" summary="task_1 added">
+      <created>1642606291794</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1642606291794</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -93,5 +98,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="task_1 added" />
+    <option name="LAST_COMMIT_MESSAGE" value="task_1 added" />
   </component>
 </project>
