@@ -1,0 +1,4 @@
+/home/wandsman/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.6461.75/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/home/wandsman/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.6461.75/bin/ninja/linux/ninja -DCMAKE_C_COMPILER=/usr/bin/gcc -DCMAKE_CXX_COMPILER=/usr/bin/g++ -G Ninja /home/wandsman/Repository/skillbox_hometask/19/task_3
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/wandsman/Repository/skillbox_hometask/19/task_3/cmake-build-debug
